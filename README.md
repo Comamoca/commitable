@@ -10,6 +10,8 @@
 
 A tool that interactively generates commit messages
 
+🚧This project is work in progress.🚧
+
 </div>
 <table>
   <thead>
