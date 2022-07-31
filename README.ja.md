@@ -1,15 +1,14 @@
 <div align="center">
 
-![Last commit](https://img.shields.io/github/last-commit/Comamoca/baserepo?style=flat-square)
-![Repository Stars](https://img.shields.io/github/stars/Comamoca/baserepo?style=flat-square)
-![Issues](https://img.shields.io/github/issues/Comamoca/baserepo?style=flat-square)
-![Open Issues](https://img.shields.io/github/issues-raw/Comamoca/baserepo?style=flat-square)
-![Bug Issues](https://img.shields.io/github/issues/Comamoca/baserepo/bug?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/Comamoca/commitable?style=flat-square)
+![Repository Stars](https://img.shields.io/github/stars/Comamoca/commitable?style=flat-square)
+![Issues](https://img.shields.io/github/issues/Comamoca/commitable?style=flat-square)
+![Open Issues](https://img.shields.io/github/issues-raw/Comamoca/commitable?style=flat-square)
+![Bug Issues](https://img.shields.io/github/issues/Comamoca/commitable/bug?style=flat-square)
 
-# 🦊 baserepo
+# 🦊 commitable
 
-
-これはComamocaのテンプレートリポジトリです。
+コミットメッセージを対話的に生成するツール
 
 </div>
 
@@ -29,49 +28,47 @@
 ## 🚀 使い方
 
 ```
-# ここに使い方を書きましょう。
-```
-- How to use
-- It is also possible to make bullet points
-- It ’s good.
+lazygit or git add #お好きな方法でgit addを実行してください。
 
-- 使い方を書きましょう。
-- 箇条書きにすると、
-- 更に分かりやすくなるでしょう。
+commitable
+```
 
 ## ⬇️  Install
 
-Windows、Linux、Macの各OSのインストール方法を書いてみましょう。
-Linuxディストリビューションごとにインストール方法を書くと更に良いでしょう。
+- go install
+`go install github.com/Comamoca/commitable@latest`
 
-バイナリで配布する場合は、リリースページについても書いてください。
-
-また、ソースからインストールする方法についても書いてください。
 
 ## ⛏️   開発
 
 ```sh
-# 開発用の環境を構築する方法をここに書きましょう。
+git clone https://github.com/Comamoca/commitable
+cd commitable
+go build
 ```
 ## 📝 Todo
 
-- [ ] ここにTodoを書きましょう。
-- [ ] Githubプロジェクトと併用することをお勧めします。
+- [ ] オートスコープの実装
 
 ## 📜 ライセンス
 
-オープンソースにおいてライセンスは重要です。必ず書くようにしましょう。
+MIT
 
 ### 🧩 Modules
 
-使用したライブラリについて書きましょう。
-自動生成できるツールがある場合は活用しましょう。
+- github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e
+- github.com/manifoldco/promptui v0.9.0
+- golang.org/x/sys v0.0.0-20181122145206-62eef0e2fa9b
 
 ## 👏 影響を受けたプロジェクト
 
-影響を受けたプロジェクトについて書きましょう。
+- lintingzhen  
+[commitizen-go](https://github.com/lintingzhen/commitizen-go)
+
+- travi 
+[https://github.com/commitizen/cz-cli](https://github.com/commitizen/cz-cli)
 
 ## 💕 スペシャルサンクス
 
-開発に役立ったツールとライブラリについて書きましょう。
-また、それらの開発者に敬意を払いましょう。
+- manifoldco
+[promptui](https://github.com/manifoldco/promptui)

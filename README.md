@@ -1,17 +1,16 @@
 <div align="center">
 
-![Last commit](https://img.shields.io/github/last-commit/Comamoca/baserepo?style=flat-square)
-![Repository Stars](https://img.shields.io/github/stars/Comamoca/baserepo?style=flat-square)
-![Issues](https://img.shields.io/github/issues/Comamoca/baserepo?style=flat-square)
-![Open Issues](https://img.shields.io/github/issues-raw/Comamoca/baserepo?style=flat-square)
-![Bug Issues](https://img.shields.io/github/issues/Comamoca/baserepo/bug?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/Comamoca/commitable?style=flat-square)
+![Repository Stars](https://img.shields.io/github/stars/Comamoca/commitable?style=flat-square)
+![Issues](https://img.shields.io/github/issues/Comamoca/commitable?style=flat-square)
+![Open Issues](https://img.shields.io/github/issues-raw/Comamoca/commitable?style=flat-square)
+![Bug Issues](https://img.shields.io/github/issues/Comamoca/commitable/bug?style=flat-square)
 
-# 🦊 baserepo
+# 🦊 commitable
 
-This is Comamoca's template repository.
+A tool that interactively generates commit messages
 
 </div>
-
 <table>
   <thead>
     <tr>
@@ -36,38 +35,42 @@ This is Comamoca's template repository.
 
 ## ⬇️  Install
 
-Let's write the installation method for each OS of Windows, Linux, Mac.
-It's still nice to write the method for each Linux distribution.
-
-If you distribute it in binary, write about the release page as well.
-
-Also, write about how to install from source.
+- go install
+`go install github.com/Comamoca/commitable@latest`
 
 
 ## ⛏️   Development
 
 ```sh
-# Let's write here how to build an environment for development.
+git clone https://github.com/Comamoca/commitable
+cd commitable
+go build
 ```
+
 ## 📝 Todo
 
-- [ ] Write here what you need to do in your project.
-- [ ] It's even better to use it with the Github Project.
+- [ ] Implementation of autoscope
 
 ## 📜 License
 
-Licenses are important for open source. Be sure to write it.
+MIT
 
 ### 🧩 Modules
 
-Let's write about the library used.
-If you have a tool that can be automatically generated, make use of it.
+- github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e
+- github.com/manifoldco/promptui v0.9.0
+- golang.org/x/sys v0.0.0-20181122145206-62eef0e2fa9b
+
 
 ## 👏 Affected projects
 
-Write a project that inspired you to develop.
+- lintingzhen  
+[commitizen-go](https://github.com/lintingzhen/commitizen-go)
+
+- travi 
+[https://github.com/commitizen/cz-cli](https://github.com/commitizen/cz-cli)
 
 ## 💕 Special Thanks
 
-Write about the tools and libraries that helped you develop.
-Also, pay homage to those developers.
+- manifoldco
+[promptui](https://github.com/manifoldco/promptui)
